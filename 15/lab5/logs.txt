@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-12-20T13:16:48</date>
+  <millis>1576822608129</millis>
+  <sequence>0</sequence>
+  <logger>ones.Lab3</logger>
+  <level>INFO</level>
+  <class>ones.Lab3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>This is Info Messsage </message>
+</record>
+<record>
+  <date>2019-12-20T13:16:48</date>
+  <millis>1576822608177</millis>
+  <sequence>1</sequence>
+  <logger>ones.Lab3</logger>
+  <level>WARNING</level>
+  <class>ones.Lab3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Warning Message</message>
+</record>
+<record>
+  <date>2019-12-20T13:16:48</date>
+  <millis>1576822608183</millis>
+  <sequence>2</sequence>
+  <logger>ones.Lab3</logger>
+  <level>SEVERE</level>
+  <class>ones.Lab3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Logger logs</message>
+  <exception>
+    <message>java.lang.RuntimeException: Error</message>
+    <frame>
+      <class>ones.Lab3</class>
+      <method>main</method>
+      <line>76</line>
+    </frame>
+  </exception>
+</record>
+</log>
